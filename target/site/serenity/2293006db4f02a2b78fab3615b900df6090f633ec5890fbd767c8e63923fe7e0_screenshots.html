@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Presupuesto</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="42acbd6be9c8de4bd74349601e6497302f7fc99a56f962b66558124328db27e4.html">Historia De Usuario</a></span>
+                > <span class="truncate-60"><a
+                    href="2293006db4f02a2b78fab3615b900df6090f633ec5890fbd767c8e63923fe7e0.html">Escenario </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 31-03-2023 14:49</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Historia De Usuario </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                            <div class="requirementNarrative">Background: Ingresar al Login de la pagina salesforce
+                                    <p></p>
+                            </div>
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="4a09ba3240b3163c39a528a5ee5081acb1d36567d674669a7bf66ee136031b62.html">Historiados
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Escenario
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Y estoy en la app deseo Seleccionar el menu Marketing<br>Entonces Debo visualizar la lista de contactos creados<br>Y Valido que exista el usuario &lt;Nombre&gt;,&lt;Telefono&gt;,&lt;Correo&gt;</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="ac0f5bfd2f92b280b493cf504b75d4d49b47a4717f01b861aa7ca5508f2c8782.png" title="Escenario #1: {Nombre=Andy Young, Telefono=(785) 241-6200, Correo=a_young@dickenson.com}" width="1920"/>
+                <img src="f81a6b1b065c5d94109d2bb9d8ce7010046ba6c0c39b19a54ecd11a0e40dd719.png" title="Dado el usuario accede a la pagina" width="1920"/>
+                <img src="f81a6b1b065c5d94109d2bb9d8ce7010046ba6c0c39b19a54ecd11a0e40dd719.png" title="Jota opens the Open up page" width="1920"/>
+                <img src="f81a6b1b065c5d94109d2bb9d8ce7010046ba6c0c39b19a54ecd11a0e40dd719.png" title="Cuando el usuario ingresa su usuario test.qa.cloudblue@gmail.com y contrase&ntilde;a T3stQ4CB2023" width="1920"/>
+                <img src="b86b65a3e9768da8f03f812d6b5ce840b65f59325506025e91c5ddf38b65cd5f.png" title="Cuando el usuario ingresa su usuario test.qa.cloudblue@gmail.com y contrase&ntilde;a T3stQ4CB2023" width="1920"/>
+                <img src="836780f0a9f2c044991cf5ce8ec7ace2542028ae0762466613836714b39e19a3.png" title="Jota enters 'test.qa.cloudblue@gmail.com' into Campo Usuario" width="1920"/>
+                <img src="6677e2dd99a0b9f02da3aa71856302caf41cd8f18a41f2676414fc394a037e25.png" title="Jota enters 'test.qa.cloudblue@gmail.com' into Campo Usuario" width="1920"/>
+                <img src="6677e2dd99a0b9f02da3aa71856302caf41cd8f18a41f2676414fc394a037e25.png" title="Jota enters 'T3stQ4CB2023' into Campo Contrase&ntilde;a" width="1920"/>
+                <img src="d751c0ac469114fad3b9b55f876633e137d715d097476c9de95ae08d75c4d30e.png" title="Jota enters 'T3stQ4CB2023' into Campo Contrase&ntilde;a" width="1920"/>
+                <img src="d751c0ac469114fad3b9b55f876633e137d715d097476c9de95ae08d75c4d30e.png" title="Jota clicks on Bot&oacute;n CONTINUAR" width="1920"/>
+                <img src="f8a9918554dc2ff1dd2451a343247eb7b0b37322139b8d9269b760c157325551.png" title="Jota clicks on Bot&oacute;n CONTINUAR" width="1920"/>
+                <img src="b86b65a3e9768da8f03f812d6b5ce840b65f59325506025e91c5ddf38b65cd5f.png" title="Y estoy en la app deseo Seleccionar el menu Marketing" width="1920"/>
+                <img src="d2b9fbff900c0cdf1d982975d0be36283c22ad054571bee03a338074e9ece049.png" title="Y estoy en la app deseo Seleccionar el menu Marketing" width="1920"/>
+                <img src="b86b65a3e9768da8f03f812d6b5ce840b65f59325506025e91c5ddf38b65cd5f.png" title="Jota clicks on Buton menu" width="1920"/>
+                <img src="ddf3180a3da8b96b9bae00ec296ced1697fdff511a11ff3c0765dce719c5854c.png" title="Jota clicks on Buton menu" width="1920"/>
+                <img src="593a608258e0dc1a3422cdbccb4d592e1e44546eede41040e6e833437de183d4.png" title="Jota clicks on lista desplegable" width="1920"/>
+                <img src="1fe0e99c8a584ae502cd67ecbec6ef536b98911a402d059d76a2dc352835be04.png" title="Jota clicks on lista desplegable" width="1920"/>
+                <img src="8e1e07809f4042d07efb54353dc853ee78bbf05392f26f997cd29808dc174d21.png" title="Entonces Debo visualizar la lista de contactos creados" width="1920"/>
+                <img src="0e0578c8548522eb10fdb13824f28adc8b6de67f42be6b60e97b57b3df11cc69.png" title="Entonces Debo visualizar la lista de contactos creados" width="1920"/>
+                <img src="c04a95c11d92d2999b4883bd51759b76afbbeb3f70ef28f2d71bb9bb3263ba73.png" title="Jota clicks on TXT INPUT" width="1920"/>
+                <img src="1a501688c2ab1b647b6571cb0a3d8cd5e1add5c325f3888eebea7bff25405f60.png" title="Jota clicks on TXT INPUT" width="1920"/>
+                <img src="ab39b4991d9565ab0196a111e9e5e961f4539e47199fe65b78446646ecfde734.png" title="Jota clicks on click the Contact button" width="1920"/>
+                <img src="6e76410d6d6d4017525cce4178ef4e26ba3315f6d473f04ff901412f5c373534.png" title="Jota clicks on click the Contact button" width="1920"/>
+                <img src="bc91e80e6f31fc04f9ba675f90c4459af3a44eac49963c2f959df3540a60a1e7.png" title="Y Valido que exista el usuario Andy Young,(785) 241-6200,a_young@dickenson.com" width="1920"/>
+                <img src="ac0f5bfd2f92b280b493cf504b75d4d49b47a4717f01b861aa7ca5508f2c8782.png" title="Y Valido que exista el usuario Andy Young,(785) 241-6200,a_young@dickenson.com" width="1920"/>
+                <img src="ac0f5bfd2f92b280b493cf504b75d4d49b47a4717f01b861aa7ca5508f2c8782.png" title="Then name questions should be 'Andy Young'" width="1920"/>
+                <img src="ac0f5bfd2f92b280b493cf504b75d4d49b47a4717f01b861aa7ca5508f2c8782.png" title="Then validate phone should be '(785) 241-6200'" width="1920"/>
+                <img src="ac0f5bfd2f92b280b493cf504b75d4d49b47a4717f01b861aa7ca5508f2c8782.png" title="Then validate email should be 'a_young@dickenson.com': <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
